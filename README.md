@@ -6,12 +6,12 @@
 
 <p align="center">
   <!--<img src="https://img.shields.io/badge/Version-1.0-blue?style=for-the-badge&color=blue">
-   <img src="https://img.shields.io/github/stars/KasRoudra/VidPhisher?style=for-the-badge&color=magenta">
-  <img src="https://img.shields.io/github/forks/KasRoudra/VidPhisher?color=cyan&style=for-the-badge&color=purple">
-  <img src="https://img.shields.io/github/issues/KasRoudra/VidPhisher?color=red&style=for-the-badge">
-  <img src="https://img.shields.io/github/license/KasRoudra/VidPhisher?style=for-the-badge&color=blue">
+   <img src="https://img.shields.io/github/stars/alvinbaby/VidPhisher?style=for-the-badge&color=magenta">
+  <img src="https://img.shields.io/github/forks/alvinbaby/VidPhisher?color=cyan&style=for-the-badge&color=purple">
+  <img src="https://img.shields.io/github/issues/alvinbaby/VidPhisher?color=red&style=for-the-badge">
+  <img src="https://img.shields.io/github/license/alvinbaby/VidPhisher?style=for-the-badge&color=blue">
 <br>-->
-    <img src="https://img.shields.io/badge/Author-KasRoudra-green?style=flat-square">
+    <img src="https://img.shields.io/badge/Author-alvinbaby-green?style=flat-square">
     <img src="https://img.shields.io/badge/Open%20Source-Yes-orange?style=flat-square">
     <img src="https://img.shields.io/badge/Maintained-Yes-cyan?style=flat-square">
     <img src="https://img.shields.io/badge/Written%20In-Shell-blue?style=flat-square">
@@ -23,7 +23,7 @@
 
 ### [+] Installation
 
-- `git clone https://github.com/KasRoudra/VidPhisher`
+- `git clone https://github.com/alvinbaby/VidPhisher`
 - `cd VidPhisher`
 
 For termux, use additional command `termux-setup-storage`
@@ -33,7 +33,7 @@ For termux, use additional command `termux-setup-storage`
 ##### Or Run Directly
 
 ```
-wget https://raw.githubusercontent.com/KasRoudra/VidPhisher/main/vp.sh && bash vp.sh
+wget https://raw.githubusercontent.com/alvinbaby/VidPhisher/main/vp.sh && bash vp.sh
 ```
 
 ##### Usage
@@ -77,16 +77,9 @@ All of the necessary depenencies will be installed automatically in first run!
 
 Edge do not suport video capturing. Only audio can be captured from it. Only Firefox supports screen capturing additionally. And most of the rests support video and audio. If browser doesn't block VidPhisher and the victim allows access only then you can capture video/audio
 
-### [+] Credits
-
-Thanks to <a href="https://github.com/Techchipnet/camphish">Techchip</a> and <a href="https://github.com/muaz-khan/RecordRTC">Muaz Khan</a> for their open source codes!
-
 ### [+] Disclaimer
 
 **_This tool is developed for educational purposes. Here it demonstrates how camera phishing works. If anybody wants to gain unauthorized access to someones camera, he/she may try out this at his/her own risk. You have your own responsibilities and you are liable to any damage or violation of laws by this tool. The author is not responsible for any misuse of VidPhisher!_**
 
 ### [+] Find me on
 
-<a href="mailto:kasroudrakrd@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-kasroudrakrd@gmail.com-blue?style=for-the-badge&logo=gmail"></a>
-
-<a href="https://m.me/KasRoudra" target="_blank"><img src="https://img.shields.io/badge/Messenger-KasRoudra-blue?style=for-the-badge&logo=messenger"></a>
